@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    text-align: center;
+   
+}
+body{
+    min-height: 100vh ;
+    background: linear-gradient(18deg, rgb(17, 200, 220), rgb(90, 67, 121));
+    min-width: 40rem;
+    margin: 0 auto;
+}
+h1{
+    margin: 2rem;
+    color: white;
+    font-size: 3rem;
+}
+input{
+    width: 90%;
+    height: 100%;
+    border-radius: 1rem;
+    border: none;
+    background-color: white;
+    padding: 0.5rem;
+    outline: none;
+}
+i{
+    /* position: relative;
+    left: 1rem;
+    top: 0.4rem; */
+    font-size: 2rem;
+    cursor: pointer;
+    
+  
+}
+button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    
+    
+}
+li{
+    font-size: 2rem;
+    background-color: white;
+    text-align: left;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    width: 30%;
+    height: 3rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.far{
+    color: turquoise;
+    background-color: turquoise;
+    margin: 0 0.5rem;
+}
+
+.checked{
+    background-color: white;
+}
+.line-through{
+    text-decoration: line-through;
+    
+}
+
+.done  {
+    text-decoration: line-through;
+    background-color: lightslategray;
+}
+.checked-done{
+    background-color: gray;
+    color: white;
+    cursor: default ;
+}
+
+.fa-trash:hover{
+    color: red;
+}
+/* #todo{
+    margin: 0 auto;
+    min-width: 40rem;
+} */
