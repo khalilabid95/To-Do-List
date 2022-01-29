@@ -29,6 +29,10 @@ input{
     padding: 0.5rem;
     outline: none;
 }
+a{
+    flex:1;
+    overflow-wrap: anywhere;
+}
 i{
     /* position: relative;
     left: 1rem;
@@ -52,7 +56,7 @@ li{
     margin: 1rem auto;
     border-radius: 1rem;
     width: 30%;
-    height: 3rem;
+    min-height: 3rem;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
